@@ -6,6 +6,5 @@ class Tumi
 {
     public function validar(VillaPeruana $item)
     {
-        // $item->quality = 80;
     }
 }

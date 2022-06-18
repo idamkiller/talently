@@ -18,15 +18,15 @@ class VillaPeruana
 
     public function __construct($name, $quality, $sellIn)
     {
-        $this->name = $name;
-        $this->quality = $quality;
-        $this->sellIn = $sellIn;
+        $this->name     = $name;
+        $this->quality  = $quality;
+        $this->sellIn   = $sellIn;
 
-        $this->pisco = new Pisco();
-        $this->ticket = new Ticket();
-        $this->tumi = new Tumi();
-        $this->normal = new Normal();
-        $this->cafe = new Cafe();
+        $this->normal   = new Normal();
+        $this->pisco    = new Pisco();
+        $this->ticket   = new Ticket();
+        $this->tumi     = new Tumi();
+        $this->cafe     = new Cafe();
     }
 
     public static function of($name, $quality, $sellIn) {
